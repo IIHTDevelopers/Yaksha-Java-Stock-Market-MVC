@@ -1,5 +1,5 @@
-* To build your project and run test cases use command:
-	mvn clean package
+* To build your project use command:
+	mvn clean package -Dmaven.test.skip
 
 * To launch your application:
 	mvn tomcat7:run
